@@ -1,0 +1,3 @@
+https://rosettacode.org/wiki/100_doors
+https://simple.wikipedia.org/wiki/RSA_algorithm
+https://prime-numbers.info/list/semiprimes
