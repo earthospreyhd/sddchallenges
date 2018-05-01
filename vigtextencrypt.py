@@ -19,7 +19,7 @@ def vig (status, key, inputtext):
         #Set the letter of the output to be equal to the input letter plus or minus(depending on whether status
         # is 1 for encrypt or -1 for decrypt) the offset in modulo 255 (amount of ascii characters)
 
-        output[x] = chr((ord(inputtext[x]) + offset*status) % 255)
+        output[x] = chr((ord(inputtext[x]) + offset*status) % 127)
     
     
     return (output)
